@@ -1,10 +1,12 @@
+# TEST files 
 rdf_test_dataset=./datasets/vc-db-1.rdf
 sparql_test_query=./queries/test.rq
 
+#MAIN: Query files
 rdf_main_dataset=./datasets/vc-db-3.ttl
 sparql_main_query=./queries/main.rq
 
-# Name graphs: https://jena.apache.org/tutorials/sparql_datasets.html
+#MAIN2: Name graphs: https://jena.apache.org/tutorials/sparql_datasets.html
 sparql_main2_query=./queries/main2.rq
 rdf_default_graph=./datasets/ds-dft.ttl
 rdf_named_graph1=./datasets/ds-ng-1.ttl
